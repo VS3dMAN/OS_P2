@@ -1,6 +1,5 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("Automated Device Configuration System")
+st.write("This app demonstrates how devices can be automatically configured.")
+st.code(open('your_script.py').read())
